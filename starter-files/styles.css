@@ -50,7 +50,6 @@ button {
   font-weight: bold;
 }
 
-
 /* Banner */
 .banner {
   background: #7c7a7ab7 url(../starter-files/images/hero.jpg);
@@ -115,7 +114,7 @@ hr {
 }
 .img-inner {
   height: 300px;
-   margin-right: 20px;
+  margin-right: 20px;
 }
 img {
   height: 100%;
@@ -132,19 +131,114 @@ img {
   margin-bottom: 20px;
 }
 
+/*  Feature and services-Section*/
+
+.section-gray {
+  background-color: #f4f4f6e8;
+}
+
+.flex-cont {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  font-size: smaller;
+  margin-bottom: 180px;
+}
+.box {
+  flex-basis: 33.3%;
+  padding: 30px;
+}
+svg {
+  color: #0394e8;
+}
+form {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#email {
+  padding: 11px;
+  flex-basis: 60%;
+  margin-right: 20px;
+}
+
+.subs {
+  flex-basis: 20%;
+}
+/* Footer */
+
+/* ---Media queries--- */
+.footer {
+  background-color: #3c3c3c;
+  color: #d5d5d5;
+}
+.f-flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.f-socmedia {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  background-color: #d5d5d5;
+  padding-top: 2px;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+.icon:not(:last-child) {
+  margin-right: 10px;
+}
+.dark-c{
+  color: #3c3c3c;
+}
+.f-text{
+margin-top: 20px;
+}
+.f-text p{
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: smaller;
+}
+.bright{
+  color: #fff;
+  font-weight: bold;
+}
 
 @media (max-width: 768px) {
-    .img-wrapper{
-     flex-wrap: wrap;
-    }
-   .img-cont{
+  .img-wrapper,
+  .flex-cont {
+    flex-wrap: wrap;
+  }
+  .img-cont,
+  .box {
     flex-basis: 100%;
     margin-bottom: 30px;
-   }
-   .container{
+  }
+  .container {
     margin-bottom: 0;
-   }
+  }
+  .form {
+    text-align: center;
+  }
+  form {
+    flex-direction: column;
+  }
+  #email {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .subs {
+    align-self: center;
+  }
+  .flex-cont {
+    margin-bottom: 50px;
+  }
 }
+
 @media (max-width: 425px) {
   .nav-logo {
     flex-direction: column;
@@ -159,14 +253,30 @@ img {
   .nav {
     padding-left: 0;
     justify-content: space-between;
-    font-size: x-large;
   }
   .main-heading {
     font-size: x-large;
+  }
+
+  form {
+    width: 80%;
   }
   button {
     padding: 20px 60px;
     font-size: large;
     margin-top: 20px;
+  }
+  .icon{
+    width:40px ;
+    height:40px ;
+    padding-top: 5px;
+  }
+  .dark-c{
+    font-size: 30px;
+  }
+  .f-text{
+    width: 95%;
+    margin:0 auto;
+    padding-top: 50px;
   }
 }
