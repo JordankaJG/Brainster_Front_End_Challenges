@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  background-color: rgba(39, 40, 51, 1);
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+h2{
+    margin-top: 0;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.banner{
+    height: 100vh;;
+}
+ul{
+    margin-top: 0;
+}
+li{
+  list-style-type: none;
+  padding:10px;
+  display: inline;
+}
+.right{
+  right: 30px;
+  top:10px;
+}
+.left{
+    margin-top: 10px;
+}
+.sign-up{
+background-color:  #e44c65;
+border-radius: 4px;
+}
+.title{
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: right;
+}
+.future > h1 {
+  font-size: 2.5rem;
+}
+.fa-chevron-down {
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%);
+}
+/* First block with blue car */
+.block{
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+}
+.img-1{
+     background-image: url(images/picture1.jpg);
+}
+.red-border{
+   height: 50vh;
+  width: 100%;
+  background-color: rgba(39, 40, 51, 0.85);
+  bottom: 0;
+  border-top: 5px solid #e44c65;
+}
+.text{
+    width: 98%;
+    margin: 70px auto;
+}
+.row {
+  width: 33%;
+  text-align: justify;
+  padding: 40px;
+}
+.text2{
+left: 50%;
+transform: translate(-50%);
+}
+.text3{
+    right:0;
+}
+/* Second block with red car */
+.img-2{
+    background-image: url("./images/picture2.jpeg");
+}
+.aside {
+  width: 35%;
+  height: 100%;
+  background-color: rgba(39, 40, 51, 0.85);
+}
+.inner-text {
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+  padding-top: 50%;
+}
+button {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.b2 {
+  padding: 15px;
+  width: 9rem;
+}
+.aside-right {
+  right: 0;
+  border-left: 5px solid rgb(93, 93, 238);
+}
+/* Third block with red car */
+.img-3{
+  background-image: url(./images/picture3.jpg);
+}
+.aside-left {
+  border-right: 5px solid rgb(45, 212, 81);
+}
+/* Icon block */
+.large-block{
+  height: 100vh;
+}
+.title-middle, .last-title{
+  text-align: center;
+  padding: 70px;
+}
+hr{
+  width: 30%;
+  border: 2px solid #e44c65;;
+}
+.top-block, .bottom-block{
+  width: 90%;
+  margin: 70px auto;
+  height: 400px;
+}
+.box{
+  width: 33%;
+  text-align: center;
+}
+.box2{
+  left:50%;
+  transform: translate(-50%);
+}
+.box3{
+  right: 0;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.centered {
+  padding: 25px;
+}
+.lorem {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 15%;
+  padding: 20px;
+}
+/* Fifth Block */
+
+.red-block{
+  height: 400px;
+  background-color: #e44c65;
+}
+.form{
+padding-top:20px;
+}
+input, .get{
+  padding: 10px;
+  border-radius: 4px;
+}
+input{
+  width: 300px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.get{
+  width: 150px;
+  color:#e44c65;
+  background-color: #fff;
+}
+input::placeholder{
+  color: white;
+}
+/* Last Block */
+.last-block{
+ padding: 5%;
+ text-align: center;
+}
+.sm-icons{
+  padding: 5px;
+}
+span{
+  padding:5px;
+  display: inline-block;
+}
+.dotted{
+  text-decoration-style: dotted ;
+}
+/* Hover */
+.fa-2x:hover, li:hover, button:hover{
+  cursor: pointer;
+}
+.b2:hover, .lorem:hover{
+  border-color:rgb(43, 191, 241) ;
+  transition: 0.4s;
+}
