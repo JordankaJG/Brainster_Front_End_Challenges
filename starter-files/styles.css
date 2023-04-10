@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #588dad;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+   margin-left: 40px;
+  margin-right: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h3.white {
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*  First Block-Header*/
+header {
+  height: 500px;
+  position: relative;
+}
+img.logo {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+nav {
+  float: right;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+.navbar {
+  padding: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+.navbar:hover {
+  text-decoration: underline red;
+}
+div.clear1 {
+  clear: both;
+}
+img.devices {
+ width: 600px;
+ position:absolute;
+ bottom: 0;
+ left:50%;
+ transform: translate(-50%);
+}
+
+/* Second-block */
+
+div.icon {
+  width: 25%;
+  height: 200px;
+  float: left;
+  text-align: center;
+}
+.first {
+  background-color: #dbdbdb;
+}
+h4 {
+  margin-top: 30px;
+}
+svg {
+  margin-top: 30px;
+}
+.second {
+  background-color: #bdb9a8;
+}
+.third {
+  background-color: #88e2d0;
+}
+
+.fourth {
+  background-color: #97a7ba;
+}
+
+/* Third block */
+
+div.wrapper {
+  width: 50%;
+  height: 300px;
+  text-align: justify;
+  float: left;
+}
+div.child1 {
+  margin-top: 0;
+  background-color: #c1d4dc;
+  position: relative;
+}
+img.tablet {
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.child2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.child2 {
+  background-color: #97a7ba;
+}
+
+ /* Fourth block */
+
+.brown-child {
+  background-color: #bdb9a8;
+}
+.phone-child {
+  background-color: #c1d4dc;
+  position: relative;
+}
+
+img.phone {
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Fifth block */
+
+.mac-child {
+  background-color: #c1d4dc;
+  margin-top: 0;
+  position: relative;
+}
+
+img.mac {
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.orange {
+  background-color: #f89a7f;
+  float: right;
+  width: 50%;
+  height: 280px;
+}
+div.clear2 {
+  clear: both;
+}
+
+/* Sixth block */
+
+.box {
+  width: 33.3%;
+  height: 200px;
+  float: left;
+  text-align: center;
+}
+.team {
+  background-color: #97a7ba;
+}
+.sallary {
+  background-color: #bdb9a8;
+}
+.earnings {
+  background-color: #88e2d0;
+}
+
+.box::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* Seventh block */
+
+.socialmedia {
+  float: left;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+.socialmedia a {
+  display: inline-block;
+  padding: 50px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+}
+.socialmedia a.fa-instagram::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.socialmedia a:hover {
+  color: #f89a7f;
+  transition: 0.5s;
+}
+
+/* Footer */
+
+footer {
+  height: 50px;
+  width: 100%;
+  float: left;
+  background-color: #544256;
+  text-align: center;
+}
