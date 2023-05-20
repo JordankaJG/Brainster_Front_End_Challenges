@@ -1,0 +1,115 @@
+.nav-item.active {
+  border-left: 2px solid #fff;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-collapse.collapse.show {
+  border-top: 1px solid black;
+  border-top-style: groove;
+}
+/* Carousel */
+.carousel-center {
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: translate(-50%, -50%);
+}
+.carousel-indicators > button {
+  border-radius: 10% !important;
+  height: unset !important ;
+  border-bottom: none !important;
+  background-clip: unset !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("./Images/right-chevron-svgrepo-com.svg");
+}
+.carousel-control-prev-icon {
+  background-image: url("./Images/left-chevron-svgrepo-com.svg");
+}
+.carousel-img-1 {
+  background-image: url(./Images/image1.jpg);
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.carousel-img-2 {
+  background-image: url(./Images/image2.jpg);
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.carousel-img-3 {
+  background-image: url(./Images/image3.jpg);
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Third section and video modal img */
+.bg-img1 {
+  background-image: url("./Images/lights.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.bg-img2 {
+  background: rgba(0, 0, 0, 0.7) url(./Images/media.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-position: center;
+}
+
+.fs-large {
+  font-size: 70px;
+}
+/* About us */
+.header-img {
+  background-image: url(./Images/image1.jpg);
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img-up {
+  margin-top: -50px;
+}
+.fs-icon {
+  font-size: 30px;
+}
+/* Services FAQ */
+.bg-accordion {
+  background-color: #0b0b0b;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #0b0b0b;
+  color: #fff;
+}
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important ;
+}
+.accordion {
+  --bs-accordion-border-color: none;
+}
