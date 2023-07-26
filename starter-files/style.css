@@ -1,0 +1,32 @@
+body {
+  background: url(images/img.jpeg);
+  background-position:bottom;
+  
+
+}
+
+.text-area{
+    height: 500px;
+}
+
+.keyboard-space{
+    background-color: rgba(60, 60, 60, 0.283);
+    height: 450px;
+
+}
+button{
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 7rem;
+    height: 2.8rem;
+    margin:0.8rem 0.2rem;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: white;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.577);
+}
+ .space-btn{
+    width: 20rem;
+ }
