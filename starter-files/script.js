@@ -53,6 +53,6 @@ document.addEventListener("keydown", (event) => {
     if (event.key === "Backspace") {
       backspaceButtonPressed()
     }else if (event.code === "Space") {
-        spaceButtonPressed
+        spaceButtonPressed();
     }
 })
