@@ -1,0 +1,32 @@
+      #email-form {
+        width: 380px;
+        padding: 15px;
+        border: 1px solid #cccccc;
+        margin: 0 auto;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        margin-bottom: 12px;
+        box-sizing: border-box;
+      }
+
+      button {
+        background-color: #4caf44;
+        color: white;
+        padding: 10px 50px;
+        border: 1px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #45a045;
+      }

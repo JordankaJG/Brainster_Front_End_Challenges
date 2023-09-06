@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form id="email-form">
+      <label for="email">From:</label>
+      <input type="email" id="senderEmail" name="from" />
+      <br />
+      <label for="email">To:</label>
+      <input type="email" id="recipientEmail" name="to" />
+      <br />
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" />
+      <br />
+      <label for="message">Message:</label>
+      <textarea id="message" name="textarea"></textarea>
+      <br />
+      <button type="submit">Send</button>
+    </form>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
