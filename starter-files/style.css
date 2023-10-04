@@ -1,0 +1,155 @@
+#race {
+  text-align: center;
+  background-color: #242021;
+  position: relative;
+}
+
+h1,
+h2,
+h3 {
+  color: #a2a2a2;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+button {
+  width: 200px;
+  padding: 5px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: larger;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#racetrack {
+  margin-top: 20px;
+  height: 350px;
+  background: url(/starter-files/images/raceTrack.jpg);
+  background-size: contain;
+}
+.car {
+  width: 300px;
+  display: block;
+  position: relative;
+}
+#car1 {
+  bottom: 50px;
+}
+#car2 {
+  bottom: 200px;
+}
+
+#raceInfoContainer {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#container-right,
+#container-left {
+  width: 50%;
+}
+
+#car-1 {
+  color: #ffebf7;
+}
+#car-2 {
+  color: #ba0000;
+}
+
+#cars-container {
+  display: flex;
+  justify-content: space-around;
+}
+#counterAndflag, #flag-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+#flag-img{
+	display: none;
+}
+#counter {
+  display:none;
+
+  font-size: 200px;
+  color: #ffebf7;
+}
+.darkenBackgorund{
+opacity: 20%;
+}
+
+.car1-info, .car2-info{
+	color: #a2a2a2;
+}
+.div-items-info{
+  border: 1px solid white;
+  padding: 10px;
+  width: 80%;
+    margin:  0 auto 0 auto;
+}
+.previousGame-info{
+margin-top: 60px;
+
+  
+}
+button[disabled]{
+  border:2px solid #a2a2a2;
+  color:#a2a2a2;
+}
+
+@media (max-width: 768px) {
+  #racetrack{
+    margin-top: 60px;
+    height: 200px;
+  }
+  .car {
+  width: 180px;}
+  #car1 {
+  bottom: 40px;
+}
+#car2 {
+  bottom: 120px;
+}
+#cars-container{
+  margin-top:40px;
+  
+}
+.div-items-info{
+  font-size: 13px;
+}
+h1{
+  font-size:40px ;
+}
+h3{
+  font-size: 20px;
+}
+h2{
+  font-size: 30px;
+}
+button{
+  width: 150px;
+}
+
+}
+
+/*use these below*/
+/*car1 color*/
+/*color: #ffebf7;*/
+
+/*car2 color*/
+/*color: #ba0000;*/
