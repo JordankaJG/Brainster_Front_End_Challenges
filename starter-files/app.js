@@ -59,7 +59,7 @@ $(function () {
             `Finished in <strong style= "font-size:15px; color:#ffebf7">${place}</strong> place with the time of <strong style= "font-size:15px; color:#ffebf7">${raceTime1}</strong> miliseconds!</div>`
           );
           $(".car1-info ").append(car1InfoDiv);
-          sessionStorage.setItem(
+          localStorage.setItem(
             "car1",
             ` <div class="div-items-info" style="color:#a2a2a2"> <strong style= "font-size:15px; color:#ffebf7">Car1</strong>  finished in <strong style= "font-size:15px; color:#ffebf7">${place}</strong> place with the time of <strong style= "font-size:15px; color:#ffebf7">${raceTime1}</strong> miliseconds</div>`
           );
@@ -78,7 +78,7 @@ $(function () {
             `Finished in <strong style= "font-size:15px; color:#ba0000">${place}</strong> place with the time of <strong style= "font-size:15px; color:#ba0000">${raceTime2}</strong> miliseconds!</div>`
           );
           $(".car2-info ").append(car2InfoDiv);
-          sessionStorage.setItem(
+       localStorage.setItem(
             "car2",
             ` <div class="div-items-info" style="color:#a2a2a2"> <strong style= "font-size:15px; color:#ba0000">Car2</strong>  finished in <strong style= "font-size:15px; color:#ba0000">${place}</strong> place with the time of <strong style= "font-size:15px; color:#ba0000">${raceTime2}</strong> miliseconds</div>`
           );
@@ -96,8 +96,8 @@ $(function () {
 });
 
 window.addEventListener("load", function () {
-  let previousGameInfo1 = sessionStorage.getItem("car1");
-  let previousGameInfo2 = sessionStorage.getItem("car2");
+  let previousGameInfo1= localStorage.getItem("car1");
+  let previousGameInfo2 = localStorage.getItem("car2");
 
   $(".previousGame-info").append(previousGameInfo1);
   $(".previousGame-info").append(previousGameInfo2);
