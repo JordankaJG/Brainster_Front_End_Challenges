@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bikes</title>
+    <meta name="keywords" content="html,css,javaScript" />
+    <meta name="description" content="Bikes" />
+    <meta name="author" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- Latest compiled and minified BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Font-awesome 5 cdn -->
+    <script
+      src="https://kit.fontawesome.com/173d418073.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- start here -->
+    <div class="main">
+      <div class="row">
+        <div class="col-10 mx-auto main-wrapper">
+          <nav id="navbar ">
+            <div class="row">
+              <div class="col mx-auto p-3">
+                <div class="row">
+                  <div class="col-2">
+                    <div class="logo-wrapper">
+                      <img src="./img/logo.png" alt="" class="logo" />
+                    </div>
+                  </div>
+                  <div class="col-6 mx-auto navigation align-self-end">
+                    <div class="row">
+                      <div class="col p-0">
+                        <h6 class="navigation-link">HOME</h6>
+                      </div>
+                      <div class="col p-0">
+                        <h6 class="navigation-link">BIKES</h6>
+                      </div>
+                      <div class="col p-0">
+                        <h6 class="navigation-link">GEAR</h6>
+                      </div>
+                      <div class="col p-0">
+                        <h6 class="navigation-link">PARTS</h6>
+                      </div>
+                      <div class="col p-0">
+                        <h6 class="navigation-link">TIRES</h6>
+                      </div>
+                      <div class="col ps-0">
+                        <h6 class="navigation-link">SERVICE-INFO</h6>
+                      </div>
+                      <div class="col ps-0">
+                        <h6 class="navigation-link">CATALOGUES</h6>
+                      </div>
+                      <div class="col ps-0 pe-0">
+                        <h6 class="navigation-link">CONTACT</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2 search-and-cart align-self-end mb-3">
+                    <div class="icon-wrapper d-flex justify-content-end">
+                      <i
+                        class="fa-solid fa-magnifying-glass me-3 icon-right"
+                      ></i>
+                      <i class="fa-solid fa-bag-shopping icon-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- ---- -->
+          <div class="row">
+            <div class="col">
+              <hr />
+              <h1 class="bikes-header p-2">Bikes</h1>
+              <hr />
+            </div>
+          </div>
+          <!-- Filters-- -->
+          <div class="row">
+            <div class="col filter-item-wrapper">
+              <div class="row">
+                <div class="col-3 filters-wrapper">
+                  <div class="row">
+                    <div class="col">
+                      <div class="filter-header p-3">
+                        <h5 class="filter-headers">Filtered by:</h5>
+                      </div>
+                      <div class="row show-all p-3">
+                         <div
+                              class="d-flex  show-all align-items-center"
+                            >
+                               <p class="brandBikes d-flex w-100">Show All<span class="showAll-badge d-block pb-4  px-2"></span></p>
+
+                            </div>
+
+                   
+                        <hr />
+                      </div>
+                      <div class="row gender-wrapper px-3">
+                        <p class="filter-headers">Gender</p>
+                        <div class="col">
+                      <div class="row mb-3 bikes-row">
+                          <div
+                              class="d-flex filter-perent align-items-center"
+                            >
+                               <p class="brandBikes d-flex w-100 mb-0">Male<span class="badge-grey d-block px-2"></span></p>
+
+                            </div>
+                          </div>
+                            <div class="row mb-3 bikes-row">
+                      <div
+                              class="d-flex filter-perent align-items-center"
+                            >
+                               <p class="brandBikes d-flex w-100">Female<span class="badge-grey d-block px-2"></span></p>
+
+                            </div>
+                          </div>
+                        </div>
+                        <hr />
+                      </div>
+                      <div class="row brand-wrapper px-3">
+                        <p class="filter-headers">Brand</p>
+                        <div class="col">
+                          <div class="row mb-3 bikes-row">
+                            <div
+                              class="d-flex filter-perent align-items-center"
+                            >
+                               <p class="brandBikes d-flex w-100 mb-0">LE GRAND BIKES<span class="badge-grey d-block px-2"></span></p>
+
+                            </div>
+                          </div>
+                          <div class="row mb-3 bikes-row">
+                            <div
+                              class="d-flex filter-perent align-items-center w-100"
+                            >
+                              <p class="brandBikes d-flex w-100 mb-0">KROSS<span class="badge-grey d-block px-2"></span></p>
+
+                      
+                            </div>
+                          </div>
+
+                          <div class="row mb-3 bikes-row">
+                            <div
+                              class="d-flex filter-perent align-items-center"
+                            >
+                             <p class="brandBikes d-flex w-100 mb-0">EXPLORER<span class="badge-grey d-block px-2"></span></p>
+
+                            </div>
+                          </div>
+                              <div class="row mb-3 bikes-row">
+                                 <div class=" d-flex filter-perent align-items-center">
+                               <p class="brandBikes d-flex w-100 mb-0">VISITOR<span class="badge-grey d-block px-2"></span></p>
+
+                            </div>
+                            </div>
+                             <div class="row mb-3 bikes-row">
+                                 <div class=" d-flex filter-perent align-items-center">
+                            <p class="brandBikes d-flex w-100 mb-0">PONY<span class="badge-grey d-block px-2"></span></p>
+
+                            </div>
+                            </div>
+                         <div class="row mb-3 bikes-row">
+                                 <div class=" d-flex filter-perent align-items-center">
+                             <p class="brandBikes d-flex w-100 mb-0">FORCE<span class="badge-grey d-block px-2"></span></p>
+
+                            </div>
+                            </div>
+                      <div class="row mb-3 bikes-row">
+                                 <div class=" d-flex filter-perent align-items-center">
+                             <p class="brandBikes d-flex w-100 mb-0">E-BIKES<span class="badge-grey d-block px-2"></span></p>
+
+                            </div>
+                            </div>
+                              <div class="row mb-3 bikes-row">
+                                 <div class=" d-flex filter-perent align-items-center">
+                              <p class="brandBikes d-flex w-100 mb-0">IDEAL<span class="badge-grey d-block px-2 "></span></p>
+
+                            </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+              <!-- Card Items -->
+              <div class="col-9 items-wrapper">
+                <div class="row justify-content-center">
+                  <div class="col">
+                    <div class="row items-container ms-3 ">
+                      <!-- <div class="col-4  p-0">
+                            <div class="card me-5 ">
+                            <div class="bike-image p-5">
+                              <img src="./img/10.png" alt="" />
+                            </div>
+                            <div class="orange-part p-3">
+                              <h5 class="brand-bike-name">Tour de france 2.0</h5>
+                              <p class="price">1900$</p>
+                            </div>
+                          </div>
+                        </div>  -->
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+              <!-- Footer -->
+             <div class="row ">
+          <div class="col pt-5 footer mx-auto">
+            <div class="row p-3">
+              <div class="col-3 social-share">
+                <h5 class="footer-headers">Social Share</h5>
+                <div class="row p-2">
+                  <div class="col-3 socmedia-icons py-2">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div class="col-3 socmedia-icons py-2">
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <div class="col-3 socmedia-icons py-2">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div class="col-3 socmedia-icons py-2">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 p-2 border-start">
+                <div class="row">
+                  <div class="col-10 ms-3">
+                    <h5 class="footer-headers mb-4">Event info</h5>
+                    <div><p class="footer-text">Enter Now</p></div>
+                    <div><p class="footer-text">Event info</p></div>
+                    <div><p class="footer-text">Course Maps</p></div>
+                    <div><p class="footer-text">Race Pack</p></div>
+                    <div><p class="footer-text">Results</p></div>
+                    <div><p class="footer-text">FAQs</p></div>
+                    <div><p class="footer-text">Am I Registered?</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 p-2 border-start">
+                <div class="row">
+                  <div class="col-10 ms-3">
+                    <h5 class="footer-headers  mb-4">
+                      Registration
+                    </h5>
+                    <div><p class="footer-text">Volunteers</p></div>
+                    <div><p class="footer-text">Gallery</p></div>
+                    <div><p class="footer-text">Press</p></div>
+                    <div><p class="footer-text">Results</p></div>
+                    <div><p class="footer-text">Privacy Policy</p></div>
+                    <div><p class="footer-text">Service Plus</p></div>
+                    <div><p class="footer-text">Contacts</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 p-2 border-start">
+                <div class="row">
+                  <div class="col-10 ms-3">
+                    <h5 class="footer-headers  mb-4">Shedule</h5>
+                    <div><p class="footer-text">Gallery</p></div>
+                    <div><p class="footer-text">About</p></div>
+                    <div><p class="footer-text">Videos</p></div>
+                    <div><p class="footer-text">Results</p></div>
+                    <div><p class="footer-text">FAQs</p></div>
+                    <div><p class="footer-text">Results</p></div>
+                    <div><p class="footer-text">Volunteers</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    
+     
+      </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
