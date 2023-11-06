@@ -1,0 +1,15 @@
+@use "../../css/abstracts/variables" as var;
+@use "../../css/abstracts/mixins" as mix;
+@use "sass:math";
+
+
+.footer{
+    background-color: var.$background-color-secondary;
+margin-top: 20px;
+    @extend %section;
+    text-align: center;
+ h4{
+    color: var.$text-color-secondary;
+    font-weight: var.$font-weight-normal;
+ }
+}
