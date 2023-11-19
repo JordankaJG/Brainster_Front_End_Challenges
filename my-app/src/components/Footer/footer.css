@@ -1,0 +1,29 @@
+.footer{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.smIcon{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background-color: orange;
+    margin-right: 5px;
+}
+.smIcon:hover{
+        background-color: #afafaf;
+}
+.textRow{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-left: 1px solid rgba(118, 118, 118, 0.765);
+    padding: 10px;
+}
+.text{
+    padding: 10px;
+}
+.text:hover, h3:hover{
+    color:orange;
+}
