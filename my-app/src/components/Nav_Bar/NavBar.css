@@ -1,0 +1,22 @@
+.navBar {
+  position: relative;
+  height: 60vh;
+   background: rgba(0, 0, 0, 0.288);
+  background-image:  url("../../../public/images/raw/Girls-Listen-Music_0.jpg");
+background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 5px solid rgb(0, 247, 255);
+  background-blend-mode: darken;
+
+  
+}
+.header {
+
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+
+}
