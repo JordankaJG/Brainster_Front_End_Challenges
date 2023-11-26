@@ -1,4 +1,4 @@
-import ArtistList from "../Artist_List/ArtistList";
+import ArtistList from "../../components/Artist_List/ArtistList";
 import "./home.css";
 
 const Home = () => {

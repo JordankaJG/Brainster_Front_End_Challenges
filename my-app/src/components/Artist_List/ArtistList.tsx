@@ -12,7 +12,7 @@ const ArtistList = () => {
         {artists.map((el) => (
           <div>
             <div>
-              <ArtistItem cover={el.cover} name={el.name} key={el.id} />
+              <ArtistItem cover={el.cover} name={el.name} id={el.id} key={el.id} />
             </div>
           </div>
         ))}

@@ -1,0 +1,12 @@
+
+.artistDetailsContainer{
+    padding: 20px;
+    background-color: rgb(214, 213, 213);
+    font-weight:300;
+    font-size:smaller;
+}
+
+.artist-img{
+    margin-top: 20px;
+    width: 200px;
+}

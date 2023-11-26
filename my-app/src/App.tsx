@@ -4,7 +4,8 @@ import "./App.css";
 import NavBar from "./components/Nav_Bar/NavBar";
 import { Route, Router, Routes } from "react-router-dom";
 import Home from "./pages/Home_page/home";
-import ArtistList from "./pages/Artist_List/ArtistList";
+import ArtistList from "./components/Artist_List/ArtistList";
+import ArtistPage from "./pages/Artist_page/ArtistPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/artistpage/:id" element={<ArtistPage/>}></Route>
       </Routes>
     </div>
   );
