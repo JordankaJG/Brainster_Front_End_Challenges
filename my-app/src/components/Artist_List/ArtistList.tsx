@@ -4,15 +4,18 @@ import { ArtistI } from "../../interfaces";
 import ArtistItem from "../Artist_Item/ArtistItem";
 
 const ArtistList = () => {
-  console.log(artists);
-
   return (
     <div>
       <div className="list_container">
         {artists.map((el) => (
-          <div>
+          <div key={el.id}>
             <div>
-              <ArtistItem cover={el.cover} name={el.name} id={el.id} key={el.id} />
+              <ArtistItem
+                cover={el.cover}
+                name={el.name}
+                id={el.id}
+                key={el.id}
+              />
             </div>
           </div>
         ))}

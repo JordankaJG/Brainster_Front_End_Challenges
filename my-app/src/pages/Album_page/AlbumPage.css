@@ -1,0 +1,10 @@
+.album_page{
+  background-color: rgb(202, 202, 202);
+  padding: 30px;
+}
+.album_page img {
+    width: 150px;
+}
+h3 span{
+    font-weight: 300;
+}

@@ -17,19 +17,23 @@ const ArtistPage = () => {
       } else {
         setArtist(findArtist);
       }
-
-      console.log(findArtist);
     }
   }, [id]);
   return (
     <div className="artistDetailsContainer">
       {artist && (
         <div>
-         
-          <img className="artist-img" src={`/images/covers/${artist.cover}.jpg`} alt="" />
+          <img
+            className="artist-img"
+            src={`/images/covers/${artist.cover}.jpg`}
+            alt=""
+          />
           <h3> {artist.name}</h3>
           <p>{artist.bio}</p>
-          <div> <AlbumList artist = {artist}/></div>
+          <div>
+            {" "}
+            <AlbumList artist={artist} />
+          </div>
         </div>
       )}
     </div>

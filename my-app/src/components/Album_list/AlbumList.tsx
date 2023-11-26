@@ -9,7 +9,7 @@ interface Props {
   artist: ArtistI;
 }
 const AlbumList = ({ artist }: Props) => {
-  const artistAlbums = artist.albums;
+ const artistAlbums = artist.albums;
 
   return (
     <div className="album-img-container">
